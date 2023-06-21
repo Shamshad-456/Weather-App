@@ -1,0 +1,29 @@
+footer {
+  background-color: #9DB2BF;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  /* Center the child elements */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  color: #27374D;
+}
+footer p:first-child {
+  margin-bottom: 5px;
+}
+
+.copyright{
+  font-size: small;
+}
+
+  

@@ -1,0 +1,55 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #27374D;
+    border-radius: 25px;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 18vh; /* Adjust the vertical margin to achieve the 5:9 ratio */
+    margin-bottom: 20px;
+    height: 350px;
+    width: 300px;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 50px;
+    height: 50px;
+    background-color: #9DB2BF;
+    border-radius: 25%;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #9DB2BF;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Update flex-direction to column */
+    align-items: center;
+    margin-top: 20px; /* Add margin-top */
+  }
+  
+  .city-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add margin-bottom */
+  }
+  
+  .search-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #DDE6ED;
+    color: #27374D;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #9DB2BF;
+  }
+  
