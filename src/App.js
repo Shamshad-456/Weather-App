@@ -15,7 +15,7 @@ function App() {
     e.preventDefault();
     try {
       const response = await Axios.get(
-        `http://pro.openweathermap.org/data/2.5/weather?q=${city}&APPID=3833f2e34dc20ce83af2fa69f691f5c1`,
+        `https://pro.openweathermap.org/data/2.5/weather?q=${city}&APPID=3833f2e34dc20ce83af2fa69f691f5c1`,
       );
       console.log(response);
       updateWeather(response.data);
