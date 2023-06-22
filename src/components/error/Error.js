@@ -4,7 +4,7 @@ import './Error.css';
 
 function Error({ error }) {
   const handleClose = () => {
-    window.location.href = '/Weather-App';
+    window.location.href = 'https://shamshad-456.github.io/Weather-App/';
   };
 
   return (
